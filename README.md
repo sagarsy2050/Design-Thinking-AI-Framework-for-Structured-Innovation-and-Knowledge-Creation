@@ -100,18 +100,16 @@ Each stage has a **dedicated LLM prompt template**, runs through **ontology extr
 ---
 
 ## 🧰 Technology Stack
----------------------------------------------------------------
-| Component                      | Library / Tool             |
-|--------------------- ----------|----------------------------|
-| **UI Framework**               | Streamlit                  |
-| **LLM Backend**                | Ollama (`llama3.2-vision`) |
-| **Ontology / Semantic Graphs** | RDFLib, rdflib-namespace   |
-| **Graph Visualization**        | NetworkX + Matplotlib      |
-| **PDF Generation**             | ReportLab                  |
-| **Image Handling**             | Pillow (PIL)               |
-| **Data Serialization**         | JSON, Turtle (RDF)         |
----------------------------------------------------------------
----
+
+| Component                  | Library / Tool                  |
+|----------------------------|---------------------------------|
+| **UI Framework**           | Streamlit                       |
+| **LLM Backend**            | Ollama (`llama3.2-vision`)      |
+| **Ontology / Semantic Graphs** | RDFLib, rdflib-namespace     |
+| **Graph Visualization**    | NetworkX + Matplotlib           |
+| **PDF Generation**         | ReportLab                       |
+| **Image Handling**         | Pillow (PIL)                    |
+| **Data Serialization**     | JSON, Turtle (RDF)              |
 
 ## ⚙️ Installation & Setup
 
