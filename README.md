@@ -62,24 +62,17 @@ It’s designed for **explainable AI reasoning**, **knowledge engineering**, and
 ---
 
 ## 🧩 The 7-Stage Problem-Solving Model
-------------------------------------------------------------------------------------------------
-| Stage                                 | Purpose                                               |
-|:--------------------------------------|:------------------------------------------------------|
-| **1. Understand the Problem**         | Restate, define constraints, and identify subproblems |
+## 🧩 The 7-Stage Problem-Solving Model
 
-| **2. Research & Gather Information**  | Collect data, assumptions, and missing context        |
-
-| **3. Generate Possible Solutions**    | Brainstorm alternatives with pros/cons                |
-
-| **4. Select the Best Solution**       | Evaluate based on criteria and justification          |
-
-| **5. Plan Implementation**            | Design stepwise plan and allocate resources           |
-
-| **6. Testing & Verification**         | Define tests, predict risks, validate outcomes        |
-
-| **7. Reflection & Optimization**      | Review, learn, and suggest improvements               |
-
-------------------------------------------------------------------------------------------------
+| Stage | Purpose |
+|-------|---------|
+| **1. Understand the Problem** | Restate, define constraints, and identify subproblems |
+| **2. Research & Gather Information** | Collect data, assumptions, and missing context |
+| **3. Generate Possible Solutions** | Brainstorm alternatives with pros/cons |
+| **4. Select the Best Solution** | Evaluate based on criteria and justification |
+| **5. Plan Implementation** | Design stepwise plan and allocate resources |
+| **6. Testing & Verification** | Define tests, predict risks, validate outcomes |
+| **7. Reflection & Optimization** | Review, learn, and suggest improvements |------------------------------------------------------------------------------------------------
 
 Each stage has a **dedicated LLM prompt template**, runs through **ontology extraction**, **Q&A summarization**, and **PDF export**.
 
